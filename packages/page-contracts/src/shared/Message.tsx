@@ -124,6 +124,7 @@ export default React.memo(styled(Message)`
 
   .result {
     min-width: 15rem;
+    max-width: 50%;
   }
 
   &+& {
